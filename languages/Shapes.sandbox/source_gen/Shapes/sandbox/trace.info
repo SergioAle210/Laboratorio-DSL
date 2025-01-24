@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:f9f7f511-ad44-4e21-be1a-11d83e671657(Shapes.sandbox)/3967679329012940608">
+    <file name="MyDrawing.java">
+      <node id="3967679329012940608" at="14,54,15,37" concept="0" />
+      <node id="3967679329012940608" at="15,37,16,35" concept="0" />
+      <node id="3967679329012940608" at="16,35,17,42" concept="0" />
+      <node id="3967679329012940608" at="17,42,18,36" concept="0" />
+      <node id="3967679329012940608" at="18,36,19,42" concept="0" />
+      <node id="3967679329012940608" at="22,28,23,31" concept="0" />
+      <node id="3967679329012940608" at="23,31,24,56" concept="0" />
+      <node id="3967679329012940608" at="24,56,25,20" concept="0" />
+      <node id="3967679329012940608" at="25,20,26,52" concept="0" />
+      <node id="3967679329012940608" at="26,52,27,16" concept="0" />
+      <node id="3967679329012940608" at="27,16,28,26" concept="0" />
+      <node id="3967679329012940608" at="30,42,31,39" concept="3" />
+      <node id="3967679329012940608" at="31,39,32,24" concept="0" />
+      <node id="3967679329012940608" at="30,0,34,0" concept="4" trace="main#([Ljava/lang/String;)V" />
+      <node id="3967679329012940608" at="13,0,21,0" concept="2" trace="paintComponent#(Ljava/awt/Graphics;)V" />
+      <node id="3967679329012940608" at="22,0,30,0" concept="2" trace="initialize#()V" />
+      <node id="3967679329012940608" at="12,0,22,0" concept="1" trace="panel" />
+      <scope id="3967679329012940608" at="30,42,32,24">
+        <var name="canvas" id="3967679329012940608" />
+      </scope>
+      <scope id="3967679329012940608" at="30,0,34,0">
+        <var name="args" id="3967679329012940608" />
+      </scope>
+      <scope id="3967679329012940608" at="14,54,19,42" />
+      <scope id="3967679329012940608" at="22,28,28,26" />
+      <scope id="3967679329012940608" at="13,0,21,0">
+        <var name="graphics" id="3967679329012940608" />
+      </scope>
+      <scope id="3967679329012940608" at="22,0,30,0" />
+      <unit id="3967679329012940608" at="12,29,21,3" name="Shapes.sandbox.MyDrawing$1" />
+      <unit id="3967679329012940608" at="11,0,35,0" name="Shapes.sandbox.MyDrawing" />
+    </file>
+  </root>
+</debug-info>
+
