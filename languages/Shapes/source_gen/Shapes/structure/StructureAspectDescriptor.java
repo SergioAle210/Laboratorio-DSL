@@ -19,6 +19,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptColorReference = createDescriptorForColorReference();
   /*package*/ final ConceptDescriptor myConceptShape = createDescriptorForShape();
   /*package*/ final ConceptDescriptor myConceptSquare = createDescriptorForSquare();
+  /*package*/ final ConceptDescriptor myConceptTriangle = createDescriptorForTriangle();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -34,7 +35,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptCanvas, myConceptCircle, myConceptColor, myConceptColorReference, myConceptShape, myConceptSquare);
+    return Arrays.asList(myConceptCanvas, myConceptCircle, myConceptColor, myConceptColorReference, myConceptShape, myConceptSquare, myConceptTriangle);
   }
 
   @Override
@@ -53,6 +54,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptShape;
       case LanguageConceptSwitch.Square:
         return myConceptSquare;
+      case LanguageConceptSwitch.Triangle:
+        return myConceptTriangle;
       default:
         return null;
     }
@@ -122,6 +125,22 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("upperLeftY", 0x37100753fc7972d0L).type(PrimitiveTypeId.INTEGER).origin("3967679329012904656").done();
     b.property("size", 0x37100753fc7972d1L).type(PrimitiveTypeId.INTEGER).origin("3967679329012904657").done();
     b.alias("square");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTriangle() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Shapes", "Triangle", 0x775942afab22498eL, 0xbf3fc2d75c45781cL, 0x45137e26856c277fL);
+    b.class_(false, false, false);
+    // extends: Shapes.structure.Shape
+    b.super_(0x775942afab22498eL, 0xbf3fc2d75c45781cL, 0x37100753fc7972c4L);
+    b.origin("r:8bad362e-8030-48e4-93b0-1ffa74041fc3(Shapes.structure)/4977460717086844799");
+    b.version(3);
+    b.property("x1", 0x45137e26856c2785L).type(PrimitiveTypeId.INTEGER).origin("4977460717086844805").done();
+    b.property("y1", 0x45137e26856c2787L).type(PrimitiveTypeId.INTEGER).origin("4977460717086844807").done();
+    b.property("x2", 0x45137e26856c2788L).type(PrimitiveTypeId.INTEGER).origin("4977460717086844808").done();
+    b.property("y2", 0x45137e26856c278aL).type(PrimitiveTypeId.INTEGER).origin("4977460717086844810").done();
+    b.property("x3", 0x45137e26856c278dL).type(PrimitiveTypeId.INTEGER).origin("4977460717086844813").done();
+    b.property("y3", 0x45137e26856c278fL).type(PrimitiveTypeId.INTEGER).origin("4977460717086844815").done();
+    b.alias("triangle");
     return b.create();
   }
 }

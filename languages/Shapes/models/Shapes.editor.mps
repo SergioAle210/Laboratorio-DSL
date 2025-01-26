@@ -178,5 +178,53 @@
       <node concept="l2Vlx" id="3sg1PfWuNx2" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="4kjvyq5r2uo">
+    <ref role="1XX52x" to="uepf:4kjvyq5r2tZ" resolve="Triangle" />
+    <node concept="3EZMnI" id="4kjvyq5spqV" role="2wV5jI">
+      <node concept="3F0ifn" id="4kjvyq5spqX" role="3EZMnx">
+        <property role="3F0ifm" value="triangle" />
+      </node>
+      <node concept="3F0ifn" id="4kjvyq5spra" role="3EZMnx">
+        <property role="3F0ifm" value="x1:" />
+      </node>
+      <node concept="3F0A7n" id="4kjvyq5t8M$" role="3EZMnx">
+        <ref role="1NtTu8" to="uepf:4kjvyq5r2u5" resolve="x1" />
+      </node>
+      <node concept="3F0ifn" id="4kjvyq5sprs" role="3EZMnx">
+        <property role="3F0ifm" value="y1:" />
+      </node>
+      <node concept="3F0A7n" id="4kjvyq5t8MA" role="3EZMnx">
+        <ref role="1NtTu8" to="uepf:4kjvyq5r2u7" resolve="y1" />
+      </node>
+      <node concept="3F0ifn" id="4kjvyq5sprG" role="3EZMnx">
+        <property role="3F0ifm" value="x2:" />
+      </node>
+      <node concept="3F0A7n" id="4kjvyq5t8MC" role="3EZMnx">
+        <ref role="1NtTu8" to="uepf:4kjvyq5r2u8" resolve="x2" />
+      </node>
+      <node concept="3F0ifn" id="4kjvyq5sprU" role="3EZMnx">
+        <property role="3F0ifm" value="y2:" />
+      </node>
+      <node concept="3F0A7n" id="4kjvyq5t8ME" role="3EZMnx">
+        <ref role="1NtTu8" to="uepf:4kjvyq5r2ua" resolve="y2" />
+      </node>
+      <node concept="3F0ifn" id="4kjvyq5spsh" role="3EZMnx">
+        <property role="3F0ifm" value="x3:" />
+      </node>
+      <node concept="3F0A7n" id="4kjvyq5t8MG" role="3EZMnx">
+        <ref role="1NtTu8" to="uepf:4kjvyq5r2ud" resolve="x3" />
+      </node>
+      <node concept="3F0ifn" id="4kjvyq5spsx" role="3EZMnx">
+        <property role="3F0ifm" value="y3:" />
+      </node>
+      <node concept="3F0A7n" id="4kjvyq5t8MI" role="3EZMnx">
+        <ref role="1NtTu8" to="uepf:4kjvyq5r2uf" resolve="y3" />
+      </node>
+      <node concept="PMmxH" id="4kjvyq5spsP" role="3EZMnx">
+        <ref role="PMmxG" node="3sg1PfWuNwX" resolve="ShapeColor" />
+      </node>
+      <node concept="l2Vlx" id="4kjvyq5spqY" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

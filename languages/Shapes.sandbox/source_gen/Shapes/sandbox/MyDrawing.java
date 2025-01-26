@@ -17,6 +17,10 @@ public class MyDrawing extends JFrame {
       graphics.drawOval(10, 20, 100, 100);
       graphics.setColor(Color.blue);
       graphics.drawRect(100, 200, 50, 50);
+      graphics.setColor(Color.blue);
+      graphics.drawLine(200, 100, 300, 300);
+      graphics.drawLine(300, 300, 300, 60);
+      graphics.drawLine(300, 60, 200, 100);
     }
   };
   public void initialize() {

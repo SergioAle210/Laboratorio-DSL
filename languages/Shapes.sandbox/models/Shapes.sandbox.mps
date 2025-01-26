@@ -9,6 +9,14 @@
   </imports>
   <registry>
     <language id="775942af-ab22-498e-bf3f-c2d75c45781c" name="Shapes">
+      <concept id="4977460717086844799" name="Shapes.structure.Triangle" flags="ng" index="30vP_p">
+        <property id="4977460717086844807" name="y1" index="30vPAx" />
+        <property id="4977460717086844805" name="x1" index="30vPAz" />
+        <property id="4977460717086844815" name="y3" index="30vPAD" />
+        <property id="4977460717086844813" name="x3" index="30vPAF" />
+        <property id="4977460717086844810" name="y2" index="30vPAG" />
+        <property id="4977460717086844808" name="x2" index="30vPAI" />
+      </concept>
       <concept id="3967679329012904659" name="Shapes.structure.Canvas" flags="ng" index="3bqnm0">
         <child id="3967679329012904664" name="shapes" index="3bqnmb" />
       </concept>
@@ -50,6 +58,17 @@
       <property role="3bqnm3" value="200" />
       <property role="3bqnm2" value="50" />
       <node concept="3bqNXz" id="3sg1PfWv0re" role="3bqNXJ">
+        <ref role="3bqNXy" to="my5r:3sg1PfWuNww" resolve="blue" />
+      </node>
+    </node>
+    <node concept="30vP_p" id="4kjvyq5umfz" role="3bqnmb">
+      <property role="30vPAz" value="200" />
+      <property role="30vPAx" value="100" />
+      <property role="30vPAI" value="300" />
+      <property role="30vPAG" value="300" />
+      <property role="30vPAF" value="300" />
+      <property role="30vPAD" value="60" />
+      <node concept="3bqNXz" id="4kjvyq5umfA" role="3bqNXJ">
         <ref role="3bqNXy" to="my5r:3sg1PfWuNww" resolve="blue" />
       </node>
     </node>

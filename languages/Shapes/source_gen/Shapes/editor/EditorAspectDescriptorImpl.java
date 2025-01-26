@@ -29,6 +29,8 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
         return Collections.<ConceptEditor>singletonList(new ColorReference_Editor());
       case 4:
         return Collections.<ConceptEditor>singletonList(new Square_Editor());
+      case 5:
+        return Collections.<ConceptEditor>singletonList(new Triangle_Editor());
       default:
     }
     return Collections.<ConceptEditor>emptyList();
@@ -63,7 +65,7 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     return Collections.<SubstituteMenu>emptyList();
   }
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x775942afab22498eL, 0xbf3fc2d75c45781cL, 0x37100753fc7972d3L), MetaIdFactory.conceptId(0x775942afab22498eL, 0xbf3fc2d75c45781cL, 0x37100753fc7972c6L), MetaIdFactory.conceptId(0x775942afab22498eL, 0xbf3fc2d75c45781cL, 0x37100753fc7aca27L), MetaIdFactory.conceptId(0x775942afab22498eL, 0xbf3fc2d75c45781cL, 0x37100753fc7b3830L), MetaIdFactory.conceptId(0x775942afab22498eL, 0xbf3fc2d75c45781cL, 0x37100753fc7972ceL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x775942afab22498eL, 0xbf3fc2d75c45781cL, 0x37100753fc7972d3L), MetaIdFactory.conceptId(0x775942afab22498eL, 0xbf3fc2d75c45781cL, 0x37100753fc7972c6L), MetaIdFactory.conceptId(0x775942afab22498eL, 0xbf3fc2d75c45781cL, 0x37100753fc7aca27L), MetaIdFactory.conceptId(0x775942afab22498eL, 0xbf3fc2d75c45781cL, 0x37100753fc7b3830L), MetaIdFactory.conceptId(0x775942afab22498eL, 0xbf3fc2d75c45781cL, 0x37100753fc7972ceL), MetaIdFactory.conceptId(0x775942afab22498eL, 0xbf3fc2d75c45781cL, 0x45137e26856c277fL)).seal();
   private static final ConceptSwitchIndex conceptIndex1 = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x775942afab22498eL, 0xbf3fc2d75c45781cL, 0x37100753fc7972c4L)).seal();
   private static final ConceptSwitchIndex conceptIndex2 = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x775942afab22498eL, 0xbf3fc2d75c45781cL, 0x37100753fc7b3830L)).seal();
 }

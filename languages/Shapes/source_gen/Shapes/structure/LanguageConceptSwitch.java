@@ -15,6 +15,7 @@ public final class LanguageConceptSwitch {
   public static final int ColorReference = 3;
   public static final int Shape = 4;
   public static final int Square = 5;
+  public static final int Triangle = 6;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x775942afab22498eL, 0xbf3fc2d75c45781cL);
@@ -24,6 +25,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x37100753fc7b3830L, ColorReference);
     builder.put(0x37100753fc7972c4L, Shape);
     builder.put(0x37100753fc7972ceL, Square);
+    builder.put(0x45137e26856c277fL, Triangle);
     myIndex = builder.seal();
   }
 
